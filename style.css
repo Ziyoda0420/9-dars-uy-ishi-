@@ -1,0 +1,314 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+
+
+}
+
+.containerz {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    gap: 10px;
+    
+
+}
+
+
+.nav__list {
+    display: flex;
+    gap: 100px;
+
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    margin: 20px;
+    margin-top: 80px;
+
+}
+
+.bul a {
+    width: max-content;
+    padding: 17px 65px;
+    text-decoration: none;
+    color: blue;
+    border: 1px solid blue;
+border-radius: 55px;
+    display: flex;
+}
+
+.bul a:hover {
+    background-color: azure;
+}
+.bul{
+    margin: auto;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.group button {
+    width: 150px;
+    height: 50px;
+    border-radius: 20px solid blue;
+    margin: 20px;
+    margin-top: 80px;
+    color: blue;
+}
+
+button:hover {
+    background-color: aqua;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header__content {
+    display: flex;
+    padding-top: 100px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.header__con {
+    display: flex;
+    padding-top: 100px;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+.footer__main{
+    display: flex;
+    /* padding-top: 100px; */
+    align-items: center;
+    justify-content: space-between;
+    height: 142px;
+    padding: 140px 0;
+
+
+
+}
+
+.header__lef p {
+    width: 375px;
+    height: 85px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+    color: rgb(63, 56, 56);
+    display: flex;
+}
+
+/* .header_con p{
+    width: 234px;
+    height: 121px;
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 32px;
+    color: rgb(63, 56, 56);
+    display: flex;
+   
+    line-height: 25px;
+    display: flex;
+   
+} */
+.ll {
+    width: 434px;
+    height: 121px;
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 32px;
+    color: rgb(63, 56, 56);
+    display: flex;
+
+    line-height: 25px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+
+}
+
+
+
+h2 {
+    text-align: center;
+}
+
+/* .header__con h2{
+    font-weight: 18px;
+    width:234px ;
+    height:113px ;
+    padding-top: 20px;
+    justify-content: end;
+    display: flex;
+    
+    
+} */
+.pp {
+    font-weight: 25px;
+    width: 384px;
+    height: 113px;
+    padding-top: 20px;
+    /* justify-content: end; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+
+
+}
+
+.our p {
+    font-size: 20px;
+    line-height: 25px;
+    padding-top: 50px;
+    color: rgb(63, 55, 55);
+    ;
+}
+
+.our {
+    width: 952px;
+    height: 180px;
+    text-align: center;
+    margin: auto;
+}
+
+.group {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 380px;
+    height: 390px;
+    border-radius: 15px;
+    background-color: #E7E7E7;
+    transition: 0.5s;
+}
+
+.box:hover {
+    background-color: #5A98F2;
+    color: white;
+}
+
+.box img {
+    padding: 50px 0 50px 50px;
+}
+
+.box h2 {
+    padding: 0 0 20px 50px;
+}
+
+h1 {
+    margin: auto;
+    font-weight: 20px;
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+}
+
+.box p {
+    line-height: 30px;
+    padding-left: 50px;
+    color: #7D7987;
+    transition: 0.5px
+}
+
+.box p:hover {
+    color: white;
+}
+
+.header_left {
+
+    width: 440px;
+    height: 395px;
+
+
+    line-height: 32px;
+    color: rgb(63, 56, 56);
+
+
+
+}
+
+.check {
+    width: 380px;
+    height: 516px;
+    padding-top: 30px;
+}
+
+.check h2 {
+    width: 320px;
+    height: 84px;
+    padding-top: 80px;
+}
+
+.check p {
+    width: 266px;
+    height: 84px;
+    padding-top: 30px;
+    line-height: 28px;
+}
+
+.check h3 {
+    padding-top: 50px;
+    color: blue;
+}
+footer{
+    background-color: rgb(109, 212, 244);
+margin-top: 232px;
+}
+.main1{
+    width: 386px;
+    height: 142px;
+    padding-top: 10px;
+    padding-left: 80px;
+}
+
+.main1 p{
+    width: 386px;
+    height:84px ;
+    color: white;
+    line-height: 30px;
+}
+
+.main2{
+    display: flex;
+    gap: 150px  ;
+
+}
+.main2 ul{
+    line-height: 40px;
+    color: white;
+    text-align: left;
+}
+.main2 a{
+    line-height: 25px;
+    color: white;
+}
